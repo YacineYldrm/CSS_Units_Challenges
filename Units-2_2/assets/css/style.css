@@ -1,0 +1,36 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+    
+}
+
+.background
+{
+    background: url(./../img/background.png);
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+    background-position-y: center;
+    padding-top: 150px;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+h1
+{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 10%;
+    font-size: 3.5vw;
+    color: white;
+    background-color: rgba(117, 112, 255, 0.645);
+    width: 80%;
+    text-align: center;
+}
